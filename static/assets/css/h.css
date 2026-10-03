@@ -3,11 +3,11 @@
    justify-content: center;
    align-items: center;
 }
-
+/* Main Title */
 .title {
    font-size: 10vh;
    color: var(--text-primary);
-   font-family: "Comic Sans MS", sans-serif;
+   font-family: "Comic Sans MS", sans-serif; 
    text-align: center;
    text-transform: uppercase, lowercase;
    border-radius: 0px 0px 5px 5px;
@@ -57,10 +57,10 @@
 input {
    padding: 20px;
    width: 550px;
-   border-radius: 5px;
+   border-radius: 55px;
    background: var(--background-column);
    text-align: center;
-   font-size: 24px;
+   font-size: 20px;
    border: none;
    outline: none;
    color: var(--text-primary);
