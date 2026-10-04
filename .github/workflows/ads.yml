@@ -22,7 +22,7 @@ jobs:
       - name: Setup Ad-Free branch
         run: |
           git fetch origin main
-          if git ls-remote --heads origin Ad-Free; then
+          if git ls-remote --heads origin | grep -q "Ad-Free"; then
             git checkout Ad-Free
             git merge origin/main --no-edit
           else
