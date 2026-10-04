@@ -44,3 +44,8 @@ jobs:
 
       - name: Push changes
         run: git push origin Ad-Free --force
+     
+      - name: Push changes
+        run: git push origin Ad-Free --force
+        env: 
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
